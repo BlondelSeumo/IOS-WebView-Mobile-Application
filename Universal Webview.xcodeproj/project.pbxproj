@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC1129AEF542B0336C816A5 /* Pods_Universal_Webview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80B84A60FBC81B9E9EB5B4A /* Pods_Universal_Webview.framework */; };
+		2F2A43812319183C00BBA7FF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A43802319183C00BBA7FF /* MapViewController.swift */; };
+		2F2A438323191FE200BBA7FF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A438223191FE200BBA7FF /* SettingViewController.swift */; };
+		2F36D5BE231642C8003DA7B8 /* ConfigurationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36D5BD231642C8003DA7B8 /* ConfigurationFile.swift */; };
+		2F99EA6D23155F57005B2990 /* UIVViewController-SLPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F99EA6C23155F56005B2990 /* UIVViewController-SLPopup.swift */; };
+		2F99EA7023155F6D005B2990 /* SupportPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F99EA6E23155F6D005B2990 /* SupportPopupViewController.swift */; };
+		2F99EA7123155F6D005B2990 /* SupportPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F99EA6F23155F6D005B2990 /* SupportPopupViewController.xib */; };
+		2FB0B8682315AD3000984555 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0B8672315AD3000984555 /* WebViewController.swift */; };
+		2FB94E112318F2A200061E68 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB94E0E2318F2A200061E68 /* BaseViewController.swift */; };
+		2FB94E122318F2A200061E68 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB94E0F2318F2A200061E68 /* MenuCell.swift */; };
+		2FB94E132318F2A200061E68 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB94E102318F2A200061E68 /* MenuViewController.swift */; };
+		2FFA915523154B6A00A06FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA915423154B6A00A06FFB /* AppDelegate.swift */; };
+		2FFA915723154B6A00A06FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA915623154B6A00A06FFB /* ViewController.swift */; };
+		2FFA915A23154B6A00A06FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFA915823154B6A00A06FFB /* Main.storyboard */; };
+		2FFA915C23154B6C00A06FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFA915B23154B6C00A06FFB /* Assets.xcassets */; };
+		2FFA915F23154B6C00A06FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFA915D23154B6C00A06FFB /* LaunchScreen.storyboard */; };
+		2FFA9167231550E500A06FFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA9166231550E500A06FFB /* HomeViewController.swift */; };
+		2FFA916A231564F000A06FFB /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA9168231564F000A06FFB /* AboutUsViewController.swift */; };
+		2FFA916B231564F000A06FFB /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FFA9169231564F000A06FFB /* AboutUsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20E0B0365D909EBE344FD99B /* Pods-Universal Webview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Universal Webview.debug.xcconfig"; path = "Target Support Files/Pods-Universal Webview/Pods-Universal Webview.debug.xcconfig"; sourceTree = "<group>"; };
+		2F2A43802319183C00BBA7FF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2F2A438223191FE200BBA7FF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2F36D5BD231642C8003DA7B8 /* ConfigurationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationFile.swift; sourceTree = "<group>"; };
+		2F3DC209231674A700720187 /* Universal Webview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Universal Webview.entitlements"; sourceTree = "<group>"; };
+		2F99EA6C23155F56005B2990 /* UIVViewController-SLPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVViewController-SLPopup.swift"; sourceTree = "<group>"; };
+		2F99EA6E23155F6D005B2990 /* SupportPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPopupViewController.swift; sourceTree = "<group>"; };
+		2F99EA6F23155F6D005B2990 /* SupportPopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportPopupViewController.xib; sourceTree = "<group>"; };
+		2FB0B8672315AD3000984555 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2FB94E0E2318F2A200061E68 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2FB94E0F2318F2A200061E68 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		2FB94E102318F2A200061E68 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2FFA915123154B6A00A06FFB /* Universal Webview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Universal Webview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFA915423154B6A00A06FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FFA915623154B6A00A06FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FFA915923154B6A00A06FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FFA915B23154B6C00A06FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FFA915E23154B6C00A06FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FFA916023154B6C00A06FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFA9166231550E500A06FFB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2FFA9168231564F000A06FFB /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		2FFA9169231564F000A06FFB /* AboutUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		4FAC4C2A5514E24DFBA56AB6 /* Pods-Universal Webview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Universal Webview.release.xcconfig"; path = "Target Support Files/Pods-Universal Webview/Pods-Universal Webview.release.xcconfig"; sourceTree = "<group>"; };
+		D80B84A60FBC81B9E9EB5B4A /* Pods_Universal_Webview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Universal_Webview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FFA914E23154B6A00A06FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC1129AEF542B0336C816A5 /* Pods_Universal_Webview.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1814F86B60A12B013D7E4B81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80B84A60FBC81B9E9EB5B4A /* Pods_Universal_Webview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F99EA7223155F7E005B2990 /* SupportPopupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F99EA6E23155F6D005B2990 /* SupportPopupViewController.swift */,
+				2F99EA6F23155F6D005B2990 /* SupportPopupViewController.xib */,
+			);
+			path = SupportPopupViewController;
+			sourceTree = "<group>";
+		};
+		2FB94E0D2318F2A200061E68 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FB94E0E2318F2A200061E68 /* BaseViewController.swift */,
+				2FB94E0F2318F2A200061E68 /* MenuCell.swift */,
+				2FB94E102318F2A200061E68 /* MenuViewController.swift */,
+			);
+			path = MenuViewController;
+			sourceTree = "<group>";
+		};
+		2FFA914823154B6A00A06FFB = {
+			isa = PBXGroup;
+			children = (
+				2FFA915323154B6A00A06FFB /* Universal Webview */,
+				2FFA915223154B6A00A06FFB /* Products */,
+				B66722F0B1E179B95FCF9296 /* Pods */,
+				1814F86B60A12B013D7E4B81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FFA915223154B6A00A06FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA915123154B6A00A06FFB /* Universal Webview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FFA915323154B6A00A06FFB /* Universal Webview */ = {
+			isa = PBXGroup;
+			children = (
+				2F3DC209231674A700720187 /* Universal Webview.entitlements */,
+				2FFA915423154B6A00A06FFB /* AppDelegate.swift */,
+				2F2A438223191FE200BBA7FF /* SettingViewController.swift */,
+				2FFA915623154B6A00A06FFB /* ViewController.swift */,
+				2F99EA7223155F7E005B2990 /* SupportPopupViewController */,
+				2FFA915823154B6A00A06FFB /* Main.storyboard */,
+				2F2A43802319183C00BBA7FF /* MapViewController.swift */,
+				2FB0B8672315AD3000984555 /* WebViewController.swift */,
+				2F36D5BD231642C8003DA7B8 /* ConfigurationFile.swift */,
+				2FFA9166231550E500A06FFB /* HomeViewController.swift */,
+				2FB94E0D2318F2A200061E68 /* MenuViewController */,
+				2FFA916C231567F100A06FFB /* AboutUsViewController */,
+				2FFA915B23154B6C00A06FFB /* Assets.xcassets */,
+				2FFA915D23154B6C00A06FFB /* LaunchScreen.storyboard */,
+				2FFA916023154B6C00A06FFB /* Info.plist */,
+				2F99EA6C23155F56005B2990 /* UIVViewController-SLPopup.swift */,
+			);
+			path = "Universal Webview";
+			sourceTree = "<group>";
+		};
+		2FFA916C231567F100A06FFB /* AboutUsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA9168231564F000A06FFB /* AboutUsViewController.swift */,
+				2FFA9169231564F000A06FFB /* AboutUsViewController.xib */,
+			);
+			path = AboutUsViewController;
+			sourceTree = "<group>";
+		};
+		B66722F0B1E179B95FCF9296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E0B0365D909EBE344FD99B /* Pods-Universal Webview.debug.xcconfig */,
+				4FAC4C2A5514E24DFBA56AB6 /* Pods-Universal Webview.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FFA915023154B6A00A06FFB /* Universal Webview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FFA916323154B6C00A06FFB /* Build configuration list for PBXNativeTarget "Universal Webview" */;
+			buildPhases = (
+				B7D8EAF4F895536F79EADC6A /* [CP] Check Pods Manifest.lock */,
+				2FFA914D23154B6A00A06FFB /* Sources */,
+				2FFA914E23154B6A00A06FFB /* Frameworks */,
+				2FFA914F23154B6A00A06FFB /* Resources */,
+				3E6E7F0AE31439994FC10739 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Universal Webview";
+			productName = "Universal Webview";
+			productReference = 2FFA915123154B6A00A06FFB /* Universal Webview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FFA914923154B6A00A06FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Parth;
+				TargetAttributes = {
+					2FFA915023154B6A00A06FFB = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2FFA914C23154B6A00A06FFB /* Build configuration list for PBXProject "Universal Webview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FFA914823154B6A00A06FFB;
+			productRefGroup = 2FFA915223154B6A00A06FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FFA915023154B6A00A06FFB /* Universal Webview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FFA914F23154B6A00A06FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFA916B231564F000A06FFB /* AboutUsViewController.xib in Resources */,
+				2FFA915F23154B6C00A06FFB /* LaunchScreen.storyboard in Resources */,
+				2FFA915C23154B6C00A06FFB /* Assets.xcassets in Resources */,
+				2FFA915A23154B6A00A06FFB /* Main.storyboard in Resources */,
+				2F99EA7123155F6D005B2990 /* SupportPopupViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E6E7F0AE31439994FC10739 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Universal Webview/Pods-Universal Webview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Universal Webview/Pods-Universal Webview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Universal Webview/Pods-Universal Webview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D8EAF4F895536F79EADC6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Universal Webview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FFA914D23154B6A00A06FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFA915723154B6A00A06FFB /* ViewController.swift in Sources */,
+				2F99EA6D23155F57005B2990 /* UIVViewController-SLPopup.swift in Sources */,
+				2F36D5BE231642C8003DA7B8 /* ConfigurationFile.swift in Sources */,
+				2F2A438323191FE200BBA7FF /* SettingViewController.swift in Sources */,
+				2FFA915523154B6A00A06FFB /* AppDelegate.swift in Sources */,
+				2FB94E132318F2A200061E68 /* MenuViewController.swift in Sources */,
+				2F99EA7023155F6D005B2990 /* SupportPopupViewController.swift in Sources */,
+				2FB94E112318F2A200061E68 /* BaseViewController.swift in Sources */,
+				2F2A43812319183C00BBA7FF /* MapViewController.swift in Sources */,
+				2FB94E122318F2A200061E68 /* MenuCell.swift in Sources */,
+				2FB0B8682315AD3000984555 /* WebViewController.swift in Sources */,
+				2FFA916A231564F000A06FFB /* AboutUsViewController.swift in Sources */,
+				2FFA9167231550E500A06FFB /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FFA915823154B6A00A06FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFA915923154B6A00A06FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FFA915D23154B6C00A06FFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFA915E23154B6C00A06FFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FFA916123154B6C00A06FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FFA916223154B6C00A06FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FFA916423154B6C00A06FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E0B0365D909EBE344FD99B /* Pods-Universal Webview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Universal Webview/Universal Webview.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ERMMK9D2U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Universal Webview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.99videogallery.ChristmasWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FFA916523154B6C00A06FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FAC4C2A5514E24DFBA56AB6 /* Pods-Universal Webview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Universal Webview/Universal Webview.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ERMMK9D2U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Universal Webview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.99videogallery.ChristmasWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FFA914C23154B6A00A06FFB /* Build configuration list for PBXProject "Universal Webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFA916123154B6C00A06FFB /* Debug */,
+				2FFA916223154B6C00A06FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FFA916323154B6C00A06FFB /* Build configuration list for PBXNativeTarget "Universal Webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFA916423154B6C00A06FFB /* Debug */,
+				2FFA916523154B6C00A06FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FFA914923154B6A00A06FFB /* Project object */;
+}
